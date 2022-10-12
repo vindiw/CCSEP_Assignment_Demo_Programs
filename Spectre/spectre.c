@@ -66,7 +66,7 @@ uint8_t array1[16] = {
 uint8_t unused2[64];
 uint8_t array2[256 * 512];
 
-char * secret = "The Magic Words are Squeamish Ossifrage.";
+char * secret = "CCSEP ASSIGNMENT";
 
 uint8_t temp = 0; /* Used so compiler won’t optimize out victim_function() */
 
@@ -291,7 +291,7 @@ int main(int argc,
   size_t malicious_x = (size_t)(secret - (char * ) array1);
   
   /* Default addresses to read is 40 (which is the length of the secret string) */
-  int len = 40;
+  int len = 16;
   
   int score[2];
   uint8_t value[2];
