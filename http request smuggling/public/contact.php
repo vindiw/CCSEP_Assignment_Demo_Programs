@@ -13,7 +13,7 @@ include_once("_header.php");
 
 <form action="<?= $page ?>" method="post">
 
-Name: <input type="text" name="name" value="Your Shitty Name :"><br/>
+Name: <input type="text" name="name" value="Your Name :"><br/>
 <br/>
 
 Content: <br/>
